@@ -8,6 +8,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 import Mempelai from "./Mempelai";
+import Galeri from "./Galeri";
 
 const Homepage = () => {
   const [open, setOpen] = useState(false);
@@ -55,6 +56,10 @@ const Homepage = () => {
       {/* Section RSVP */}
       <section id="" className="py-16">
         <RSVP />
+      </section>
+
+      <section id="galeri" className="py-16">
+        <Galeri/>
       </section>
 
       {/* Footer */}
